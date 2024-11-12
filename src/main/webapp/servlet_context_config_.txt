@@ -1,0 +1,22 @@
+
+			       Application --->server
+seervlet1				 |
+				----------------------
+seervlet2			ServletContext---Application Configuration
+
+seervlet3
+
+	===> JDBC(DbConnection + [insert,update,ddelete,display all records])
+	===> JSP Basic(Scripting Elements)
+
+WebApplication---70%---CRUD	30%--research---Spring
+
+	CRUD(JDBC + Servlet + JSP) + Backend-Validation
+
+	===> Session Tracking(login and Logout)---login by otp Mail
+
+	===> Servlet Filter and Listener
+
+	===> Jsp(Action Element + JSTL)	
+
+	-----------------END------------------

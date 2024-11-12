@@ -1,0 +1,43 @@
+Data Sharing scope:-
+--------------------
+
+	2) request:-
+	--------------
+		servlet1:-
+		------------	
+			===>request.setAttribute(String key,Object value);
+		servlet2:-
+		------------
+			===>Object value = (Object)request.getAttribute(String key);
+
+			===>request.removeAttribute(String key);
+
+		servlet3:-
+		------------
+			
+
+	3) session:-
+	-------------------
+
+			session.setAttribute(String key,Object value);
+			Object value = session.getAttribute(String key);
+			session.removeAttribute(String key);
+
+
+	4) application(ServletContext):-
+	----------------------------------
+
+			context.setAttribute(String key,Object value);
+			Object value = context.getAttribute(String key);
+			context.removeAttribute(String key);
+
+
+
+	data--list ----> use
+   (request,response)------> (request,response)---->(request,response)
+	servlet1		servlet2		servlet3	
+
+
+	RequestDispacher rd = request.getRequestDispacher("servlet2-URlPattern");
+
+	rd.forward(request,response);// servlet2

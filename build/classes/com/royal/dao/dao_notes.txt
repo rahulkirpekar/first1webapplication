@@ -1,0 +1,65 @@
+	DbConnection 
+		connection Object
+
+
+		Three Type of Statement in JDBC
+		---------------------------------
+	DbConnection 
+		connection Object
+
+	     |	
+	1) Statement(CRUD)
+	     |	
+      2) PreparedStatement(CRUD)
+	     |	
+
+SQL Query---execute
+
+
+1) Statement		2) PreparedStatement		3) CallableStatement			
+--------------		----------------------
+CRUD			CRUD
+--------------------------------------------------
+			|
+	-----------------------------------
+	 	  |		  |	 
+	     executeUpdate()  executeQuery()
+	 	  |		  |
+		insert		select
+		update
+		delete
+
+Dao---Data Access Object
+------------------------
+
+MySQL Table:-
+------------
+	Student Table----StudentDao
+	--------------
+	    |
+CREATE TABLE student
+(
+	rno int AUTO_INCREMENT PRIMARY KEY,
+	name varchar(50),
+	std varchar(50),
+	marks int
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

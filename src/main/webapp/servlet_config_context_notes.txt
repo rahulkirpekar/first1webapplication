@@ -1,0 +1,67 @@
+Data Sharing Scope:-
+-------------------
+	1) page---current page---[this.]
+		
+
+	2) request:-
+	-------------
+			request.setAttribute(String key,Object value);
+			Object value = request.getAttribute(String key);
+			request.removeAttribute(String key);// remove--->Object value
+
+	3) session:-
+	---------------
+			request.setAttribute(String key,Object value);
+			Object value = request.getAttribute(String key);
+			request.removeAttribute(String key);// remove--->Object value
+	4) application:-
+	-------------------
+
+			request.setAttribute(String key,Object value);
+			Object value = request.getAttribute(String key);
+			request.removeAttribute(String key);// remove--->Object value
+
+
+
+web-application /servlet Configuration:-
+-------------------------------------------
+
+
+	1) ServletConfig:-
+	------------------
+
+	       web.xml---values---set---A	
+		|
+	   configuration values
+		|
+		A(servlet)
+
+
+
+
+
+	2) ServletContext:-
+	--------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

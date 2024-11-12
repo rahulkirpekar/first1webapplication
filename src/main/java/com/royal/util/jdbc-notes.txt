@@ -1,0 +1,30 @@
+JDBC:- "Java to Database Connectivity"
+-----
+	Java Program--->Database
+	1) JDK(Install)
+	2) Mysql/Oracle/Postgress/MsSql server
+--------------------------------------------------------------------------------
+
+	1) Database Connection:-
+	------------------------	
+
+jdbc-driverclass.jar
+
+    Driver.class    Driver.class    Driver.class            Driver.class
+	 |		 |		  |			  |
+ mysql-connector.jar  odbc.jar	       *.jar			*.jar	        
+	 |		 |		  |			  |
+	Mysql		Oracle		PostGress		MSSql-Server
+
+
+	MySql--local machine 
+
+		1) URLNAME=""
+
+		2) DRIVERCLASS=="Driver.class"
+
+
+		3) USERNAME
+		4) PASSWORD
+			
+
